@@ -1,0 +1,4 @@
+build/
+os.pro.user
+os.pro.user.*
+copyfile.bat

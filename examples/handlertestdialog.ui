@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HandlertestDialog</class>
+ <widget class="QDialog" name="HandlertestDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>344</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item>
+     <widget class="QPushButton" name="testHandler1">
+      <property name="text">
+       <string>主线程测试Handler</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="testHandler2">
+      <property name="text">
+       <string>子线程测试Handler</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="testHandler3">
+      <property name="text">
+       <string>跨线程测试Handler</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

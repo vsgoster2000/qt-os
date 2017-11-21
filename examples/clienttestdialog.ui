@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientTestDialog</class>
+ <widget class="QDialog" name="ClientTestDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="connetService">
+       <property name="text">
+        <string>连接服务</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="disconnectService">
+       <property name="text">
+        <string>断开服务</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="showRecvData"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="inputData"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendData">
+       <property name="text">
+        <string>发送数据</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="showStatus"/>
+   </item>
+  </layout>
+  <zorder>showRecvData</zorder>
+  <zorder>showStatus</zorder>
+  <zorder>inputData</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
